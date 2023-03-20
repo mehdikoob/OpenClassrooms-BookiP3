@@ -200,6 +200,36 @@ box-sizing: border-box;
 width: 65%;
 }
 
+.articles {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.articles article {
+flex-basis: calc(30% - 10px);
+margin-bottom: 20px;
+}
+.card-hebergement {
+width: 30%;
+min-height: 250px;
+background-color: white;
+padding: 1%;
+border-radius: 20px;
+cursor: pointer;
+box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.taille-img {
+object-fit: cover;
+width: 100%;
+height: 120px;
+border-radius: 15px 15px 0 0;
+}
+
+.click {
+    cursor: pointer;
+}
 /****** Populaires ***********/
 .populaires {
 width: 32%;
