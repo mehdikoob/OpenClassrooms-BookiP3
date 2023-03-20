@@ -53,6 +53,53 @@ body {
     color: var(--main-bg-color)
 }
 
+/* HEADER & NAVIGATION */
+
+.logo-booki {
+    width: 61px;
+    height: 19px;
+}
+
+.neutre {
+    text-decoration: none;
+    color: black
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navblock { 
+    width: 140px;
+    height: 55px;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hover-bord:hover > a {
+color: #0065FC;
+}
+
+.hover-bord:hover{
+    border-top: 2px solid #0065FC;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
