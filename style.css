@@ -228,7 +228,7 @@ border-radius: 15px 15px 0 0;
 }
 
 .click {
-    cursor: pointer;
+cursor: pointer;
 }
 /****** Populaires ***********/
 .populaires {
@@ -294,10 +294,10 @@ border-radius: 20px 20px 0 0;
 }
 
 .alignement {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between
-    }
+display: flex;
+flex-direction: row;
+justify-content: space-between
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
