@@ -280,7 +280,7 @@ margin-bottom: 5px;
 
 .card-activites {
 width: 23%;
-height:280px;
+height:380px;
 border-radius: 20px 20px 20px 20px;
 box-shadow: 5px 5px 5px 1px #f2f2f2;
 cursor: pointer;
@@ -289,7 +289,7 @@ cursor: pointer;
 .taille-img-act {
 object-fit: cover;
 width: 100%;
-height: 280px;
+height: 300px;
 border-radius: 20px 20px 0 0;
 }
 
@@ -299,6 +299,33 @@ flex-direction: row;
 justify-content: space-between
 }
 
+.titre-act {
+margin-left: 19px;
+}
+
+
+/* FOOTER */
+
+.footer-block {
+height: 200px;
+margin-top: 100px;
+background-color: #f2f2f2;
+display: flex;
+justify-content: space-between;
+color: black;
+}
+.taille-bloc-footer {
+height: 150px;
+}
+.bloc-foot1 {
+margin-left: 5%;
+}
+.bloc-foot3 {
+margin-right: 15%;
+}
+.div-lien-foot {
+height: 30px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
