@@ -8,24 +8,26 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+	integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer">
 	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-	<div class="main-container">
+	<div class="main-container  mobile-container">
 		<header>
 			<nav>
 				<div class="navigation-menu">
-					<div>
+					<div class="logo-mobile">
 						<img class="logo-booki" src="images/logo/Booki.png" alt="logo Booki">
 					</div>
-					<div class="flex">
+					<div class="flex nav-mobile">
 						<div class="flex navblock hover-bord">
-							<a class="black" href="">Hébergements</a>
+							<a class="black" href="#hebergement1">Hébergements</a>
 						</div>
 						<div class="flex navblock hover-bord">
-							<a class="black" href="">Activités</a>
+							<a class="black" href="#act1">Activités</a>
 						</div>
 					</div>
 				</div>
@@ -46,8 +48,9 @@
 					<span>Rechercher</span>
 				</div>
 			</div>
-			<div class="barre-filtre">
-				<div class="margin"> Filtres </div>
+			<div class="filter-tab filtre-none">Filtres</div>
+			<div class="flex-filtre">
+				<div class="margin filter-none"> Filtres </div>
 				<!-- ECONOMIQUE -->
 				<div class="bulle flex"> <i class="fa-solid fa-money-bill-wave fa-lg margin"></i>
 					<div> Économique </div>
@@ -73,8 +76,8 @@
 		<main>
 			<div class="hebergements-and-populaires">
 				<!-- SECTION HEBERGEMENTS -->
-				<section class="hebergements">
-						<h1>Hébergements à Marseille</h1>
+				<section id="hebergement1" class="hebergements">
+					<div class="up-title"><h1>Hébergements à Marseille</h1></div>
 					<div class="space-between">
 						<article class="card-hebergement spacebottom"><img class="taille-img" src="images/hebergements/fred-kleber.jpg" alt="">
 							<h3 class="title-hotel">Hôtel du Port</h3>
@@ -142,7 +145,7 @@
 								<i class="fa-solid fa-star neutralStar"></i>
 							</div>
 						</article>
-							<h4>Afficher plus</h4>
+							<h4><a class="black" href="#">Afficher plus</a></h4>
 					</div>
 				</section>
 				<!-- SECTION POPULAIRES -->
@@ -208,7 +211,7 @@
 			</div>
 			<section>
 				<div>
-					<h2> Activités à Marseille</h2>
+					<h2 id="act1"> Activités à Marseille</h2>
 				</div>
 				<div class="flex alignement">
 					<article class="card-activites"><img class="taille-img-act" src="images/activites/reno-laithienne.jpg" alt="image du Vieux-port">
