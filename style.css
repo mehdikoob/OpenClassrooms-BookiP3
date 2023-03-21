@@ -522,4 +522,10 @@ margin-bottom: 10px;
 .bulle:nth-child(odd) {
 margin-right: 20px;
 }
+
+.footer-block {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 } 
