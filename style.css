@@ -590,4 +590,21 @@ margin-bottom: 15px;
     height: 141px;
 }
 
+.marge-texte{
+    margin-left: 30px;
+}
+
+
+.hebergements {
+    order: 2;
+}
+
+.populaires {
+    order: 1;
+}
+
+.activity {
+    order: 3;
+}
+
 }
