@@ -307,6 +307,10 @@ margin-bottom: 5px;
 
 /* Activités */
 
+.activity {
+    border-bottom: 
+}
+
 .card-activites {
 width: 23%;
 height:380px;
@@ -380,6 +384,10 @@ flex-direction: row;
 justify-content: space-between;
 margin-bottom: 35px;
 margin-top: -15px;
+}
+
+.populaires-cards .card {
+width: 30%;
 }
 
 .populaires-cards .card-title {
@@ -546,7 +554,6 @@ padding-left: 30px;
 display: none;
 }
 
-
 .search {
 border: none;
 }
@@ -606,5 +613,11 @@ margin-bottom: 15px;
 .activity {
     order: 3;
 }
+
+.populaires-cards img {
+height: auto;
+}
+
+
 
 }
