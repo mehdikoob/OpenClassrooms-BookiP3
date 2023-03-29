@@ -464,8 +464,12 @@ body {
 @media (max-width: 768px) {
 
 	/* GENERAL */
-	
+	.body {
+		margin: 0;
+	}
+
 	.hebergements-and-populaires section {
+		border-radius: none;
 	}
 
     .hebergements-and-populaires section {
@@ -540,17 +544,17 @@ body {
 	/* FILTRES */
 	.flex-filtre {
 		display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        font-weight: bold;
-        margin-top: 35px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		align-items: center;
+		grid-gap: 0px;
+		font-weight: bold;
+		margin-top: 35px;
+		margin-left: 20px;
 	}
 
 	.bulle {
-		box-sizing: border-box;
+		width: 80%;
+		margin-bottom: 10px;
 	}
 
 	.bulle:nth-child(odd) {
@@ -650,3 +654,4 @@ body {
 		justify-content: space-around;
 		padding-left: 30px;
 	}
+}
