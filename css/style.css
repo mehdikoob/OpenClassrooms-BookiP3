@@ -461,7 +461,7 @@ body {
 }
 
 /* Small devices (phones, less than 768px) **************************************************************/
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
 	/* GENERAL */
 	.body {
